@@ -7,8 +7,10 @@
     $number = 100;
     
     echo $name2;
+    echo "<br>";
     echo $number;
-    
+    echo "<br>";
+
     //If I were to echo $name, i would see an error...
     //Best practice for naming conventions - camelcase
     
