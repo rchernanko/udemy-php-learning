@@ -7,6 +7,12 @@ $numberList = array(23, 64, 267, 478, 267, 8766, 345, "5345", "345", "<h1>Hello<
 //Here I am adding variables to the array immediately,
 //Different to Java in that numberList can have several data types in it
 
+//Note that I can also initialise an array by doing this:
+
+//$numbersdfle = [];
+//$numbersdfle[0] = 123;
+//echo $numbersdfle[0];
+
 /*
 
 Can't do the following with an array:
