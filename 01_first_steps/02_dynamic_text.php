@@ -42,7 +42,7 @@ Now, let's make the h1 tag pull from dynamic data, by using php:
    
    <?php
     
-    $title = "Richard's Official Site";
+    $title = 'Richard\'s Official Site';
     
     ?>
     

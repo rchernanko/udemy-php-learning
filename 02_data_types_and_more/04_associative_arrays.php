@@ -10,12 +10,12 @@ I can then 'get' the value in the associative array via it's label (php speak fo
 
 */
 
-$names = array("first_name" => "Richard",
-              "last_name" => "Chernanko");
+$names = array('first_name' => 'Richard',
+              'last_name' => 'Chernanko');
 
 //print_r($names);
 
 //below prints out "Richard Chernanko"
-echo $names["first_name"] . " " . $names["last_name"] . "<br>";
+echo $names['first_name'] . ' ' . $names['last_name'] . '<br>';
 
 ?>

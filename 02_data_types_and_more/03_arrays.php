@@ -2,7 +2,7 @@
 
 //First of all = make the variable numberList an array by assigning it the array() function:
 
-$numberList = array(23, 64, 267, 478, 267, 8766, 345, "5345", "345", "<h1>Hello</h1>");
+$numberList = array(23, 64, 267, 478, 267, 8766, 345, '5345', '345', '<h1>Hello</h1>');
 
 //Here I am adding variables to the array immediately,
 //Different to Java in that numberList can have several data types in it
@@ -26,17 +26,17 @@ Instead, let's print the values within the array by getting the indexes;
 */
 
 echo $numberList[0];
-echo "<br>";
+echo '<br>';
 echo $numberList[1];
-echo "<br>";
+echo '<br>';
 echo $numberList[2];
-echo "<br>";
+echo '<br>';
 echo $numberList[3];
-echo "<br>";
+echo '<br>';
 echo $numberList[4];
-echo "<br>";
+echo '<br>';
 echo $numberList[5];
-echo "<br>";
+echo '<br>';
 
 //ALSO...
 //we can use a built in function in php - print_r

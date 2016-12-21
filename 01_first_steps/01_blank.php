@@ -33,10 +33,10 @@ i've added demo-2 folder (which is the exercises files downloaded)-->
 
 /* I can add a block comment like this, again, within the php */
 
-echo "hello student";
+echo 'hello student';
 
 //I can also embed html in my php:
 
-echo "<h1>Hello</h1>";
+echo '<h1>Hello</h1>';
 
 ?>
