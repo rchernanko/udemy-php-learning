@@ -9,14 +9,12 @@ if(3 > 10){
 }
 
 echo '<br>';
-//there is also an elseIf keyword in php:
+//there is also an elseif keyword in php:
 
 if(3 > 10){
     echo 'three is more than 10';
 } elseif(3 < 10) {
     echo 'three is less than 10';
 }
-
-//NEED TO FINISH THIS LESSON
 
 ?>
