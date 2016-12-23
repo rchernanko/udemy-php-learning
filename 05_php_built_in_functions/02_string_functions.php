@@ -3,7 +3,7 @@
 //Built in string functions
 //Obviously I will need to play around with this in a little more detail
 
-//Good references - http://php.net/manual/en/ref.strings.php
+//Good references - http://php.net/manual/en/ref.strings.php TODO
 
 $string = 'Hello student do you like the class';
 

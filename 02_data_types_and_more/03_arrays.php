@@ -41,7 +41,7 @@ echo '<br>';
 //ALSO...
 //we can use a built in function in php - print_r
 //to print out human-readable information about a variable
-//http://php.net/manual/en/function.print-r.php
+//http://php.net/manual/en/function.print-r.php TODO
 
 print_r($numberList);
 //pretty cool, prints out the array and it's indexes

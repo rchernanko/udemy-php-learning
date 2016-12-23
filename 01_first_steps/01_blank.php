@@ -15,6 +15,8 @@ General info:
 - We will use XAMP
 https://www.apachefriends.org/index.html
 
+TODO need to learn a little bit more about basics of php...i imagine i will need to read php the right way...
+
 3)
 
 the root directory for my server is XAMPP > htdocs directory

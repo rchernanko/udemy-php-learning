@@ -23,6 +23,6 @@ echo '<br>';
 
 Good examples:
 
-http://php.net/manual/en/language.variables.scope.php
+http://php.net/manual/en/language.variables.scope.php TODO
 
 */

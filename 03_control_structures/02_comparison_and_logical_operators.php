@@ -43,7 +43,7 @@ if (4 === '4') {
 
 /*
 
-READ THIS - HAD SOME GREAT TABLES AT THE BOTTOM http://php.net/manual/en/types.comparisons.php
+READ THIS - HAD SOME GREAT TABLES AT THE BOTTOM http://php.net/manual/en/types.comparisons.php TODO
 
 +
 
