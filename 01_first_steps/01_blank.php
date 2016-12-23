@@ -22,7 +22,6 @@ the root directory for my server is XAMPP > htdocs directory
 i've added demo-2 folder (which is the exercises files downloaded)-->
 
 
-
 <!--Opening and closing tags in php files-->
 
 <!--If there is no html in the php file, the closing tag is redundant-->

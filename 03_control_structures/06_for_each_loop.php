@@ -13,11 +13,11 @@ Example below...
 
 $numbers = array(2, 46, 345, 565);
 
-foreach($numbers as $number) {
-    
+foreach ($numbers as $number) {
+
     //In above, $numbers is the array
     //Slightly different to Java then - is like the other way aroun
-    
+
     echo $number . '<br>';
 
 }

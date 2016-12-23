@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /*
 
@@ -11,7 +11,7 @@ I can then 'get' the value in the associative array via it's label (php speak fo
 */
 
 $names = array('first_name' => 'Richard',
-              'last_name' => 'Chernanko');
+    'last_name' => 'Chernanko');
 
 //print_r($names);
 

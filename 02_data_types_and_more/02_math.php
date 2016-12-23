@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 //Let's use some math to calculate some numbers...
 
@@ -25,7 +25,7 @@ echo '<br>';
 echo '<br>';
 
 //order of operators:
-echo 5 + 5 * 10; 
+echo 5 + 5 * 10;
 //the above results in 55, not 100. we need parentheses
 //if i want to add the 5 and 5 before multiplying...
 echo '<br>';

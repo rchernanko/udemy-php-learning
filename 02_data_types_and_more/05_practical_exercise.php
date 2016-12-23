@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /* 
 
@@ -11,7 +11,7 @@ Step 2: Add the two variables and display the sum with echo:
 Step3: Make 2 Arrays with the same values, one regular and the other associative
 	 
 */
-    
+
 //1
 
 $number1 = 10;

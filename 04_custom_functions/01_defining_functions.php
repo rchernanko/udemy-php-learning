@@ -1,10 +1,11 @@
-<?php 
+<?php
 
 //Defining functions
 
 //I'll define a function below:
 
-function saySomething() {
+function saySomething()
+{
     echo 'hello student';
 }
 
@@ -17,13 +18,15 @@ echo '<br>';
 
 //Of course, similar to java you can call functions within functions:
 
-function initialise() {
+function initialise()
+{
     echo 'initialising';
     calculate();
 }
 
-function calculate() {
-    echo 2+3;
+function calculate()
+{
+    echo 2 + 3;
 }
 
 initialise();

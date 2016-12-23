@@ -39,14 +39,14 @@ Now, let's make the h1 tag pull from dynamic data, by using php:
     <title>Document</title>
 </head>
 <body>
-   
-   <?php
-    
-    $title = 'Richard\'s Official Site';
-    
-    ?>
-    
-    <h1><?php echo $title; ?></h1>
-    
+
+<?php
+
+$title = 'Richard\'s Official Site';
+
+?>
+
+<h1><?php echo $title; ?></h1>
+
 </body>
 </html>

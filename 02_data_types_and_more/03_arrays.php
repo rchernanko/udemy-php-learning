@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 //First of all = make the variable numberList an array by assigning it the array() function:
 

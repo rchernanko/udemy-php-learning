@@ -15,9 +15,9 @@ TASK
 
 
 //1
-if(3 > 10) {
+if (3 > 10) {
     echo 'something';
-} elseif(3 < 10) {
+} elseif (3 < 10) {
     echo 'i love php';
 }
 
@@ -25,7 +25,7 @@ echo '<br>';
 echo '<br>';
 
 //2
-for($numberToPrint = 0; $numberToPrint < 10; $numberToPrint++) {
+for ($numberToPrint = 0; $numberToPrint < 10; $numberToPrint++) {
     echo $numberToPrint . '<br>';
 }
 
@@ -35,7 +35,7 @@ echo '<br>';
 //3
 $name = 'sarah';
 
-switch($name) {
+switch ($name) {
     case 'richard':
         echo 'richard is my name';
         break;
