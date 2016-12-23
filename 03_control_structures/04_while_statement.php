@@ -8,5 +8,3 @@ while ($counter < 10) {
     echo 'hello student';
     $counter++;
 }
-
-?>

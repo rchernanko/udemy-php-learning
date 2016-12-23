@@ -21,6 +21,3 @@ switch ($number) {
     default:
         echo 'could not find anything';
 }
-
-
-?>

@@ -16,5 +16,3 @@ if (3 > 10) {
 } elseif (3 < 10) {
     echo 'three is less than 10';
 }
-
-?>

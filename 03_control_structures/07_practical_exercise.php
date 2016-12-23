@@ -54,6 +54,3 @@ switch ($name) {
     default:
         echo 'name not recognised';
 }
-
-
-?>

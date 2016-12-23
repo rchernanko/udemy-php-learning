@@ -26,5 +26,3 @@ $name2 = '<h1> Hello </h1>';
 //interestingly enough, I can have 2 variables of the same name inside the same file...
 
 echo $name2;
-
-?>

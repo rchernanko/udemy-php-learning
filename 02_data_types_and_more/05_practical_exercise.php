@@ -29,5 +29,3 @@ $associativeArray = array('FirstName' => 'Richard', 'SecondName' => 'John', 'Thi
 
 echo($array[0] . '<br>');
 echo($associativeArray['FirstName']);
-
-?>

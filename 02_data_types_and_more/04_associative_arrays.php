@@ -17,5 +17,3 @@ $names = array('first_name' => 'Richard',
 
 //below prints out "Richard Chernanko"
 echo $names['first_name'] . ' ' . $names['last_name'] . '<br>';
-
-?>

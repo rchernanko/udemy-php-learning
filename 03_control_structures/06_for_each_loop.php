@@ -24,5 +24,3 @@ foreach ($numbers as $number) {
 
 //Figure out how to do a foreach with associative arrays too
 //http://php.net/manual/en/control-structures.foreach.php
-
-?>

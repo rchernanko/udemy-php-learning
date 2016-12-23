@@ -45,5 +45,3 @@ echo '<br>';
 
 print_r($numberList);
 //pretty cool, prints out the array and it's indexes
-
-?>

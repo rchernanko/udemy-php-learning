@@ -31,5 +31,3 @@ function calculate()
 
 initialise();
 //It doesn't seem to matter where i call the initialise function within this file, it will always be called. i.e. i could have it at the top of this file and it would still work ok.
-
-?>

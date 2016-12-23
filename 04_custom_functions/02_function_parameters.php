@@ -29,5 +29,3 @@ function addNumbers($number1, $number2) {
 //Interesting! The double quote helps to evaluate, whereas the single quotes are purely strings...
 
 addNumbers(4,3);
-
-?>

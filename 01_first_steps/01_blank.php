@@ -38,4 +38,6 @@ echo 'hello student';
 
 echo '<h1>Hello</h1>';
 
-?>
+//NOTE - you don't need a closing tag for php files IF the file only includes PHP code.
+//i.e. If the php code was found within an html file (or a php file with html code), we would need the closing tag.
+//But in this instance (and many other files in this project, it's not necessary)

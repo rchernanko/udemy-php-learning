@@ -42,6 +42,3 @@ echo '<br>';
 echo '<br>';
 
 echo $number1 * $number2;
-
-
-?>
