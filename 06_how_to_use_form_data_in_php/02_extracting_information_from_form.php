@@ -18,7 +18,7 @@ if (isset($_POST['submitButton'])) {
 
     $username = $_POST['username'];
     $password = $_POST['password'];
-    
+
     echo $username;
     echo $password;
 }
