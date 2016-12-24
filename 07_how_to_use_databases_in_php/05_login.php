@@ -28,7 +28,7 @@ As you can see from the above html, I have added a link to this in the head.
 <div class="container">
 
     <div class="col-sm-6">
-        <form action="06_07_08.php" method="post">
+        <form action="06_07_08_creating_records_in_the_db.php" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" class="form-control">
