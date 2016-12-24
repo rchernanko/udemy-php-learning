@@ -1,14 +1,23 @@
 <!--
 
-So now we are going to start understanding how to get our database to communicate with php...
+CRUD continued
 
-Let's create the form first - 05. In 06 and beyond, we will then start communicating with our database...
-
-For the form, we will be using 'bootstrap', a front end framework - Edwin likes this for a bit of style on the forms...
-
-As you can see from the above html, I have added a link to this in the head.
+- We have already created, read and updated records in the db
+- Now let's delete record(s) in the db using another SQL query
 
 -->
+
+<?php include "10_db.php"; ?>
+<?php include "10_functions.php"; ?>
+
+<?php
+
+if (isset($_POST['submit'])) {
+
+    deleteRows();
+}
+
+?>
 
 <!doctype html>
 <html lang="en">
@@ -23,13 +32,10 @@ As you can see from the above html, I have added a link to this in the head.
 </head>
 <body>
 
-<!--The following div names etc are things that are already defined within Bootstrap - Don't get confused-->
-
 <div class="container">
 
     <div class="col-sm-6">
-       <h1 class="text-center">Create</h1>
-        <form action="06_07_08_creating_records_in_the_db.php" method="post">
+        <form action="11_delete_form.php" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" class="form-control">
@@ -38,7 +44,16 @@ As you can see from the above html, I have added a link to this in the head.
                 <label for="password">Password</label>
                 <input type="password" name="password" class="form-control">
             </div>
-            <input class="btn btn-primary" type="submit" name="submit" value="Create">
+
+            <div class="form-group">
+                <select name="id" id="">
+                    <?php
+                    showAllData();
+                    ?>
+                </select>
+            </div>
+
+            <input class="btn btn-primary" type="submit" name="submit" value="Delete">
         </form>
     </div>
 </div>

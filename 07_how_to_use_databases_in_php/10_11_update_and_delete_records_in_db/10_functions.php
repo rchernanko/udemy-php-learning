@@ -31,6 +31,7 @@ function showAllData()
 function updateTable()
 {
     global $connection;
+    //If I don't use 'global' keyword here, this function does not know that the variable is referring to something in another, included file
     $username = $_POST['username'];
     $password = $_POST['password'];
     $id = $_POST['id'];
@@ -52,5 +53,28 @@ function updateTable()
         die('Query failed' . mysqli_error($connection));
         //the mysqli_error() is a really important function for debugging. it tells me what has gone wrong!
     }
+}
 
+function deleteRows()
+{
+    global $connection;
+    //If I don't use 'global' keyword here, this function does not know that the variable is referring to something in another, included file
+    $username = $_POST['username'];
+    $password = $_POST['password'];
+    $id = $_POST['id'];
+
+    //Now let's update the users table in the database...
+    //username and password are columns in the db users table
+
+    $query = "DELETE from users ";
+    $query .= "WHERE id = $id "; //this variable doesn't need any quotes around it, because it is an integer...
+
+    //Now let's make the query
+
+    $result = mysqli_query($connection, $query);
+
+    if (!$result) {
+        die('Query failed' . mysqli_error($connection));
+        //the mysqli_error() is a really important function for debugging. it tells me what has gone wrong!
+    }
 }
