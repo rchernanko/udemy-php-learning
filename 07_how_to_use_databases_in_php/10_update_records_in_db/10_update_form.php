@@ -19,6 +19,15 @@ AND we are also going to have a little update form too - see the html below
 <?php include "10_functions.php"; ?>
 <!--Include is similar to importing in java :-) The big difference being that the file gets included AND evaluated...-->
 
+<?php
+
+if (isset($_POST['submit'])) {
+
+    updateTable();
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -35,7 +44,7 @@ AND we are also going to have a little update form too - see the html below
 <div class="container">
 
     <div class="col-sm-6">
-        <form action="10_update_form.php" method="update">
+        <form action="10_update_form.php" method="post">
             <div class="form-group">
                 <label for="username">Username</label>
                 <input type="text" name="username" class="form-control">
