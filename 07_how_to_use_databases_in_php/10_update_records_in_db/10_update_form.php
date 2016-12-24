@@ -9,29 +9,15 @@ BUT we are also going to be doing a little bit of refactoring...
 
 We are going to abstract the database connection into a separate file, entitled '10_db.php'
 
-And we can then "include" that in this file (i.e. in '10_update.php')
+And we can then "include" that in this file (i.e. in '10_update_form.php')
 
 AND we are also going to have a little update form too - see the html below
 
 -->
 
-<?php
-
-include '10_db.php'; //It's like importing in java :-) The difference being that the file gets included AND evaluated...
-
-//Now let's make a query
-
-$query = "SELECT * FROM users";
-
-//And then run the query...
-$result = mysqli_query($connection, $query);
-
-//Check that results are returned or throw an exception (die)
-if (!$result) {
-    die('Query failed' . mysqli_error());
-}
-
-?>
+<?php include '10_db.php'; ?>
+<?php include "10_functions.php"; ?>
+<!--Include is similar to importing in java :-) The big difference being that the file gets included AND evaluated...-->
 
 <!doctype html>
 <html lang="en">
@@ -65,22 +51,13 @@ if (!$result) {
 
             <div class="form-group">
                 <select name="id" id="">
-
-                    <!-- Now, let's embed some php within the html  -->
+                    <!-- Now, let's call a php function here within the html  -->
                     <?php
-
-                    //Reading from the db, While there is a row, assign the 'id' of each row to an 'id' variable
-                    while ($row = mysqli_fetch_assoc($result)) {
-                        $id = $row['id'];
-
-                        //Show that variable in the id select dropdown on the update forms
-                        echo "<option value='$id'>$id</option>";
-                    }
-                    
+                    showAllData();
                     ?>
-                    
                 </select>
             </div>
+
             <input class="btn btn-primary" type="submit" name="submit" value="Update">
         </form>
     </div>
