@@ -6,4 +6,4 @@ session_start();
 
 echo $_SESSION['greeting'];
 
-//TODO do the practical exercise for
+//TODO do the practical exercise for this section (09)
