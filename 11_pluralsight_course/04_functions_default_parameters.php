@@ -1,7 +1,9 @@
 <?php
 
 //Giving parameters default values
-//So i will give the tempYear parameter a defult value
+//So i will give the tempYear parameter a default value
+//IMPORTANT = any parameters that do not have default values need to be at the beginning of the function signature
+//All parameters that have default values need to be at the end of the function signature
 
 function bookByAuthorYear($tempAuthorName, $tempYear = 1910)
 {
