@@ -7,7 +7,7 @@
     * equal == (in terms of value)
     * identical === (Are the 2 things being compared of the same type?)
     * compare >   <   >=    <=    <> (this last one is 'less than or greater than')
-    * not equal !=
+    * not equal != (in terms of value)
     * not identical !== (Are the 2 things being compared of the same type?)
     
     LOGICAL operators:
@@ -35,7 +35,7 @@ if (4 === 4) {
 
 if (4 == "4") {
     echo 'this is true as well' . '<br>';
-} //this will be true too. even though the data types are different, the values are the same - Need to read a little bit more about this though
+} //this will be true too. even though the data types are different, the values are the same
 
 if (4 === '4') {
     echo 'this is true too';
@@ -53,7 +53,8 @@ Another very good site:
 
 http://stackoverflow.com/questions/80646/how-do-the-php-equality-double-equals-and-identity-triple-equals-comp
 
-"If you are using the === operator, or any other comparison operator which uses strict comparison such as !== or ===, then you can always be sure that the types won't magically change, because there will be no converting going on. So with strict comparison the type and value have to be the same, not only the value."
-
+"If you are using the === operator, or any other comparison operator which uses strict comparison such as !== or ===,
+then you can always be sure that the types won't magically change, because there will be no converting going on. So
+with strict comparison the type and value have to be the same, not only the value."
 
 */

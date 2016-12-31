@@ -2,7 +2,7 @@
 
 //$ sign to define a variable, followed by it's name - can be a string or numbers
 
-$name;
+$name; //If I were to echo $name, i would see an error...
 $name2 = 'Richard';
 $number = 100;
 
@@ -11,7 +11,6 @@ echo '<br>';
 echo $number;
 echo '<br>';
 
-//If I were to echo $name, i would see an error...
 //Best practice for naming conventions - camelcase
 
 //Can store many different data types within the php variables:

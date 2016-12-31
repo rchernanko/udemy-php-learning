@@ -34,7 +34,8 @@ echo '<br>';
 echo (5 + 5) * 10;
 //this will result in 100
 
-//by default, division and multiplication goes before subtraction and addition. We will come back to operations later on in the course;
+//by default, division and multiplication goes before subtraction and addition. We will come back to operations
+//later on in the course;
 
 $number1 = 12;
 $number2 = 24;

@@ -9,9 +9,9 @@ $numberList = array(23, 64, 267, 478, 267, 8766, 345, '5345', '345', '<h1>Hello<
 
 //Note that I can also initialise an array by doing this:
 
-//$numbersdfle = [];
-//$numbersdfle[0] = 123;
-//echo $numbersdfle[0];
+//$numbers = [];
+//$numbers[0] = 123;
+//echo $numbers[0];
 
 /*
 
