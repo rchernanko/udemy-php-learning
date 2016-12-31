@@ -32,15 +32,16 @@ if (!$result) {
 
 /*
 
-Now let's iterate through the results of the query, row by row - using a built in function (mysqli_fetch_row). This function returns an array of strings.
+Now let's iterate through the results of the query, row by row - using a built in function (mysqli_fetch_row).
+This function returns an array of strings.
 
 while ($row = mysqli_fetch_row($result)) {
     print_r($row);
     echo '<br>';
 }
 
-//There's another way to do this as well, using another in-built function which returns an associative array - see below. Perhaps gives you the information in a slightly nicer format, easier to understand.
-s
+//There's another way to do this as well, using another in-built function which returns an associative array - see
+below. Perhaps gives you the information in a slightly nicer format, easier to understand.
 */
 
 while($row = mysqli_fetch_assoc($result)) {

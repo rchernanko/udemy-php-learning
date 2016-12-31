@@ -11,7 +11,8 @@
 function showAllData()
 {
     global $connection;
-    //If I don't use 'global' keyword here, this function does not know that the variable is referring to something in another, included file
+    //If I don't use 'global' keyword here, this function does not know that the variable is referring to
+    //something in another, included file
     $query = "SELECT * FROM users";
     $result = mysqli_query($connection, $query);
 
@@ -31,7 +32,7 @@ function showAllData()
 function updateTable()
 {
     global $connection;
-    //If I don't use 'global' keyword here, this function does not know that the variable is referring to something in another, included file
+
     $username = $_POST['username'];
     $password = $_POST['password'];
     $id = $_POST['id'];
@@ -43,7 +44,7 @@ function updateTable()
     $query .= "username = '$username', ";
     $query .= "password = '$password' ";
     //And now for another SQL keyword - where
-    $query .= "WHERE id = $id "; //this variable doesn't need any quotes around it, because it is an integer...
+    $query .= "WHERE id = $id ";
 
     //Now let's make the query
 
@@ -58,9 +59,6 @@ function updateTable()
 function deleteRows()
 {
     global $connection;
-    //If I don't use 'global' keyword here, this function does not know that the variable is referring to something in another, included file
-    $username = $_POST['username'];
-    $password = $_POST['password'];
     $id = $_POST['id'];
 
     //Now let's update the users table in the database...

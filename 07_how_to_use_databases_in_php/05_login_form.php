@@ -24,6 +24,7 @@ As you can see from the above html, I have added a link to this in the head.
 <body>
 
 <!--The following div names etc are things that are already defined within Bootstrap - Don't get confused-->
+<!--Essentially, I'm just creating a form which will post to 06_07_08_creating_records_in_the_db.php -->
 
 <div class="container">
 
