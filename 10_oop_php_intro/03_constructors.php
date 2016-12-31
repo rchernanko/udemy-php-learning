@@ -15,5 +15,3 @@ class Person
 
 $person = new Person();
 $person1 = new Person();
-
-//TODO do the pluralsight video on this. This guy is shite...missing off a load of stuff

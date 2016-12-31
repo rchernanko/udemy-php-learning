@@ -57,7 +57,8 @@ print_r($_GET);
 
 So if I launch the browser and do not touch the URL, this above statement prints an empty array
 
-However, when I start to add parameters to the url, the superglobal get variable catches these parameters and they are displayed on the browser.
+However, when I start to add parameters to the url, the superglobal get variable catches these parameters and they are
+displayed on the browser.
 
 So for example, if i type in:
 http://localhost/demo/09_php_and_the_web/02_using_the_get_super_global.php?id=10&source=reports
