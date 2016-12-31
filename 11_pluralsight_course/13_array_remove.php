@@ -5,7 +5,7 @@
 $authors = array('Charles Dickens', 'William Shakespeare', 'Richard Jones', 'John Mert');
 
 //1 - array_pop = removes the very last element from the array. you can actually then store the very
-//last element in a returned varaible
+//last element in a returned variable
 
 $lastValue = array_pop($authors);
 
