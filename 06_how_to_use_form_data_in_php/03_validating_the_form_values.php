@@ -29,7 +29,8 @@ if (isset($_POST['submitButton'])) {
         echo 'Username has to be shorter than ' . $maximum . ' characters';
     }
 
-    //Now let's check if the username already exists within the $names array (i.e. can they log in or not). Normally we would check this against a database...we will come onto that later :-)
+    //Now let's check if the username already exists within the $names array (i.e. can they log in or not).
+    //Normally we would check this against a database...we will come onto that later :-)
 
     //Note the usage of the in_array built in function and the strtolower :-)
 

@@ -6,7 +6,8 @@ CONTINUED FROM LAST LESSON...
 
 In the previous lesson, we validated some of the form data
 
-In this lesson, we will send the form data to another php file (so that all the data is not all in 1 file, clean it up a little :-)
+In this lesson, we will send the form data to another php file (so that all the data is not all in 1 file,
+clean it up a little :-)
 
 So I've made the changes...
 
@@ -37,5 +38,3 @@ if (isset($_POST['submitButton'])) {
         echo 'Welcome';
     }
 }
-
-?>

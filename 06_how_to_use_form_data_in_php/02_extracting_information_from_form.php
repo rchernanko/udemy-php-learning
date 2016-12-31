@@ -4,7 +4,8 @@
 
 CONTINUED FROM LAST LESSON...
 
-In the previous lesson, we were able to check when the submit button was pressed (and therefore check / know when some data POSTED)
+In the previous lesson, we were able to check when the submit button was pressed (and therefore check / know
+when some data POSTED)
 
 Now, we want to be able to check / retrieve the username and password data that is entered by the user too.
 
